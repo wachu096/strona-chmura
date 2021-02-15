@@ -1,0 +1,344 @@
+.zdj_gora{
+	background-image: url('img/zamek.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	height: 80vh;
+    align-items: center;
+    justify-content: center;
+	margin: 0;
+	position: relative;
+}
+
+.logo_tekst{
+	position: absolute;
+	width: 400px;
+	bottom: 40px;
+	left: 25%;
+}
+
+.logo_tekst img{
+	width: 130px;
+	height: 130px;
+	float: left;
+	padding: 10px;
+}
+
+.logo_tekst h1{
+	color: white;
+	font-weight: bold;
+	float: left;
+}
+
+.logo_tekst h2{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+}
+
+@media(max-width: 550px){
+	.logo_tekst{
+	left: 0;
+}
+}
+
+.navbar{
+	border-bottom: 1px solid #ababab;
+	border-top: 1px solid #ababab;
+}
+
+ul.navbar-nav{
+	font-size: 20px;
+	padding: 0 10px 10px 10px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+a.nav-link{
+	font-weight: 600;
+}
+
+a.nav-link:hover{
+	color: #797b7d;
+}
+
+.h1-lublin-div{
+	padding: 30px 30px 10px 30px;
+}
+
+.h1-lublin-text{
+	padding: 0 30px 10px 30px;
+	font-size: 18px;
+}
+
+.div-figures{
+	width: 50%;
+	text-align: center;
+	position: relative;
+	left: 25%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.figure-caption{
+	text-align: center;
+	font-size: 20px;
+}
+
+.figure1{
+	float: left;
+	width: 50%;
+
+}
+
+.figure1 img{
+	height: 30vh;
+}
+
+.figure2{
+	float: left;
+	width: 50%;
+
+}
+
+.figure2 img{
+	height: 30vh;
+}
+
+.h2-map-div{
+	text-align: center;
+	padding: 10px;
+}
+
+@media(max-width: 600px){
+	.figure1{
+	float: none;
+	width: 100%;
+
+}
+
+.figure2{
+	float: none;
+	width: 100%;
+
+}
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	width:100%;
+
+}
+
+.gmap_canvas{
+	overflow:hidden;
+	background:none !important;
+	width:100%;
+}
+
+.gmap_canvas iframe{
+	height: 80vh;
+	width: 100%;
+}
+
+.sekcja1{
+	background-image: url('img/sekcja1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+    align-items: center;
+    justify-content: center;
+	margin: 0;
+}
+
+.h1-info-div{
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+}
+
+.table-bordered{
+	width: 40%;
+	position: relative;
+	left: 30%;
+	font-size: 18px;
+}
+
+@media(max-width: 900px){
+	.table-bordered{
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+}
+
+.sekcja2{
+	background-image: url('img/sekcja2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+    align-items: center;
+    justify-content: center;
+	margin: 0;
+}
+
+.h1-polozenie-div{
+	padding: 20px 30px 10px 30px;
+}
+
+
+.polozenie-tekst{
+	font-size: 18px;
+}
+
+.polozenie-zdjecie{
+	text-align: center;
+}
+
+.polozenie-zdjecie img{
+	width: 100%;
+	height: auto;
+}
+
+.sekcja3{
+	background-image: url('img/sekcja3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+    align-items: center;
+    justify-content: center;
+	margin: 0;
+}
+
+.h1-trocheHistorii-div{
+	padding: 20px 30px 10px 30px;
+}
+
+
+.histTekst p{
+	font-size: 18px;
+	padding: 10px;
+}
+
+.sekcja4{
+	background-image: url('img/sekcja4.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+    align-items: center;
+    justify-content: center;
+	margin: 0;
+}
+
+.h1-wspolczesnie-div{
+	padding: 20px 30px 10px 30px;
+}
+
+.wspolczesnie-tekst p{
+	font-size: 18px;
+	padding: 10px;
+}
+
+.figure img{
+	height: 20vmax;
+}
+
+@media(max-width: 768px){
+	.figure img{
+	height: auto;
+}
+}
+
+.footer{
+	background-color: #403f3f;
+	color: white;
+	padding: 50px 100px 50px 100px;
+}
+
+.footerSection p{
+	font-size: 18px;
+}
+
+.footerSection h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.socialmedia{
+	margin-top: 10px;
+	border-top: 1px solid white;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+.socialmedia h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+@media(max-width: 576px){
+	.socialmedia{
+	text-align: left;
+}
+}
+
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
